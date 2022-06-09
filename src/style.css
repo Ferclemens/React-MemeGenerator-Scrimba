@@ -63,7 +63,9 @@ body {
     position: relative;
 }
 .meme--image {
-    margin: 15px;
+    margin-top: 15px;
+    margin-left: 50%;
+    transform: translateX(-50%);
     width: 700px;
     height: auto;
 }
