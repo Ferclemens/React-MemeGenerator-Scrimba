@@ -29,3 +29,72 @@ body {
     color: #FFFFFF;
     margin-right: 30px;
 }
+.main--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form--container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.form--input {
+    padding: 10px;
+    margin: 30px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #D5D4D8; 
+}
+.button{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 800px;
+    padding: 10px;
+    font-family: "Karla", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #5f8f2f 1.18%, #304a16 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.meme {
+    position: relative;
+}
+.meme--image {
+    margin: 15px;
+    width: 700px;
+    height: auto;
+}
+.meme--text{
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 8px;
+    font-family: impact, sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.top {
+    top: 0;
+}
+.bottom {
+    bottom: 0;
+}
+
